@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin-left: 3rem;
+}
+
+#user_icon {
+  height: 6rem;
+  width: 6rem;
+  margin-top: 0.5rem;
+}
+
+.container {
+  display: flex;
+}
+
+#user_details_div {
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.save_button {
+  color: white;
+  background-color: rgb(114, 221, 114);
+  border-radius: 3px;
+  border: none;
+}
+
+.cancel_delete_button {
+  color: white;
+  background-color: rgb(189, 52, 52);
+  border-radius: 3px;
+  border: none;
+}
+
+.container_column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 0.25rem;
+  width: 10rem;
+}
